@@ -1,6 +1,7 @@
 def correlation(var1, var2, date1, date2) :
     '''var1 et var2 les INDICES des variables (numéro de colonne)
-    Utilise tableau, select_lignes, moyenne et ecart_type'''
+    Utilise tableau, select_lignes, moyenne et ecart_type
+    affiche les courbes des deux variables avec le coeff de corrélation, et renvoie le coeff de corrélation'''
     periode = select_lignes(date1, date2)
 
     #CALCUL DU COEFFICIENT
